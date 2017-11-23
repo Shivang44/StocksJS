@@ -1,0 +1,46 @@
+body {
+  font-family: Calibri;
+  background-color: #f3f5f6;
+}
+h3 {
+  font-weight: 500;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-flipped {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+.left-arrow {
+  position:fixed;
+  top: 250px;
+}
+.right-arrow {
+  position:fixed;
+  right: 5px;
+  top: 250px;
+}
+.left {
+  width: 30%;
+  background-color: #8eda81;
+  float:left;
+}
+.right {
+  width: 70%;
+  float:right;
+}
+.content-left {
+  text-align: center;
+  height: 1000px;
+}
+.content-right {
+  text-align: center;
+  height: 1000px;
+}
